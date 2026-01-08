@@ -1,0 +1,25 @@
+# General
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Models
+*.onnx
+*.bin
+
+# Database
+*.sqlite
+*.db
+
+# Build / Flatpak
+.flatpak-builder/
+build/
+dist/
